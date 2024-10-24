@@ -3,11 +3,13 @@ public class Nomor1{
     public static void main(String[] args){
          Scanner scanner = new Scanner(System.in);
 
+        
         //Input total penjualan
         System.out.print("Masukkan total penjualan salesman: ");
         double totalPenjualan = scanner.nextInt();
         double komisi;
 
+        
         //Menghitung komisi
         if (totalPenjualan <= 500000) {
             komisi = totalPenjualan * 0.10; // 10% untuk penjualan <= Rp 500.000
@@ -18,6 +20,7 @@ public class Nomor1{
             komisi = komisiPertama + komisiSisa;
         }
 
+        
         // Menampilkan hasil
         System.out.printf("Total penjualan salesman: %.0f%n", totalPenjualan);
         System.out.printf("Komisi yang didapatkan = %.1f%n", komisi);
