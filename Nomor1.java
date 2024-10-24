@@ -3,7 +3,6 @@ public class Nomor1{
     public static void main(String[] args){
          Scanner scanner = new Scanner(System.in);
 
-        
         //Input total penjualan
         System.out.print("Masukkan total penjualan salesman: ");
         double totalPenjualan = scanner.nextInt();
@@ -24,7 +23,6 @@ public class Nomor1{
         System.out.printf("Komisi yang didapatkan = %.1f%n", komisi);
     }
 }
-
 
 Algoritma
 Mulai.
