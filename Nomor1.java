@@ -2,9 +2,10 @@
 
 public class Nomor1{
     public static void main(String[] args){
-         Scanner scanner = new Scanner(System.in);
 
         
+         Scanner scanner = new Scanner(System.in);
+
         //Input total penjualan
         System.out.print("Masukkan total penjualan salesman: ");
         double totalPenjualan = scanner.nextInt();
